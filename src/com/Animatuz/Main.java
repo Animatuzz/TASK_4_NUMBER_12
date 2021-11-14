@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double x = readDouble();
-        int n = readInt();
+        double variableX = readDouble();
+        int variableN = readInt();
 
-        calcFormula(x, n);
+        calcFormula(variableX, variableN);
 
     }
 
@@ -41,19 +41,5 @@ public class Main {
         }
         System.out.println("Ответ: " + numeratorValue / denominatorValue);
     }
-
-  /*  static void calculateNumerator(double x, int n) {
-        double numeratorValue = (x - 2);
-        for (double bracketValue = (x - 4); bracketValue == (x - 2 * (double) n); bracketValue = bracketValue - 2) {
-            numeratorValue = numeratorValue * bracketValue;
-        }
-    }
-
-    static void calculateDenominator(double x, int n) {
-        double denominatorValue = (x - 1);
-        for (double bracketValue = (x - 3); bracketValue == (x -(2 * (double) n) -1); bracketValue = bracketValue - 2) {
-            denominatorValue = denominatorValue * bracketValue;
-        }
-    } */
 
 }
